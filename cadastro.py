@@ -32,3 +32,4 @@ def ad():
             'referencia':input('\ndigite a referencia do produto:\n')
         },ignore_index=True)
     estoque_df.to_csv('teste.csv',index=False)
+    
