@@ -1,0 +1,2 @@
+para o funcionamento desse codigo é necessario ter o python instalado e a biblioteca pandas
+comando para instalação da biblioteca pandas: pip install pandas
