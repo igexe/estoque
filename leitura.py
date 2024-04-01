@@ -92,6 +92,3 @@ def show():
     for i in finds:
         print('\n')
         print(estoque_df.loc[estoque_df['codigo']==i, ['codigo','marca','produto','quantidade','valor','referencia']])
-
-
-show()
