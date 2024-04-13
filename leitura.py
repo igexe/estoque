@@ -13,7 +13,6 @@ def search():
             busca=int(input('\ndigite o codigo do produto a ser encontrado\n'))
             elements=estoque_df.loc[estoque_df['codigo']==busca]
             finds=elements['codigo'].tolist()
-            print(finds)
             
             if len(finds)==0:
                 return 1
